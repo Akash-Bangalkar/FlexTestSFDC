@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppCanvasSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessMethod>Post</accessMethod>
+    <canvasUrl>https://www.example.com</canvasUrl>
+    <canvasLocationOptions>Aura</canvasLocationOptions>
+    <canvasLocationOptions>Visualforce</canvasLocationOptions>
+    <canvasOptions>HideHeader</canvasOptions>
+    <label>My external client app settings for canvas</label>
+    <samlInitiationMethod>None</samlInitiationMethod>
+    <externalClientApplication>testCanvasECA</externalClientApplication>
+</ExtlClntAppCanvasSettings>
