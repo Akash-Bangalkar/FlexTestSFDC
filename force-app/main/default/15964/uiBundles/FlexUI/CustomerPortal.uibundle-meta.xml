@@ -1,0 +1,7 @@
+<UIBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Customer Portal</masterLabel>
+    <description>Customer self-service portal built with React.</description>
+    <isActive>true</active>
+    <target>Experience</target>
+    <version>1</version>
+</UIBundle>
