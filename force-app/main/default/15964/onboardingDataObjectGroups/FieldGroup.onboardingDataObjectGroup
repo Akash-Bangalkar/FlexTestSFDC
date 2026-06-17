@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OnboardingDataObjectGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>description text</description>
+    <masterLabel>Field Group Valid Configuration</masterLabel>
+    <usageType>ValidityPeriod</usageType>
+    <versionDetail>
+        <computationType>StandardMinimumValidity</computationType>
+        <objectDetail>
+            <businessContext>KYC_VALIDITY</businessContext>
+            <fieldDetail>
+                <name>Status</name>
+            </fieldDetail>
+            <name>PartyFinancialAssetLien</name>
+            <pathToRoot>PartyFinancialAsset.PartyProfile.Id</pathToRoot>
+            <relatedObjectRole>Parent</relatedObjectRole>
+            <targetObjectRelationshipField>PartyFinancialAsset</targetObjectRelationshipField>
+        </objectDetail>
+        <objectDetail>
+            <businessContext>KYC_VALIDITY</businessContext>
+            <fieldDetail>
+                <name>ValuationAmount</name>
+            </fieldDetail>
+            <fieldDetail>
+                <name>VerificationStatus</name>
+            </fieldDetail>
+            <name>PartyFinancialAsset</name>
+            <pathToRoot>PartyProfile.Id</pathToRoot>
+            <relatedObjectRole>Parent</relatedObjectRole>
+            <targetObjectRelationshipField>PartyProfile</targetObjectRelationshipField>
+        </objectDetail>
+        <objectDetail>
+            <businessContext>KYC_VALIDITY</businessContext>
+            <fieldDetail>
+                <name>IncomeAmount</name>
+            </fieldDetail>
+            <name>PartyIncome</name>
+            <pathToRoot>Party.Id</pathToRoot>
+            <relatedObjectRole>Parent</relatedObjectRole>
+            <targetObjectRelationshipField>Party</targetObjectRelationshipField>
+        </objectDetail>
+        <objectDetail>
+            <businessContext>KYC_VALIDITY</businessContext>
+            <fieldDetail>
+                <name>CreditScore</name>
+            </fieldDetail>
+            <fieldDetail>
+                <name>EmploymentType</name>
+            </fieldDetail>
+            <name>PartyProfile</name>
+            <pathToRoot>Id</pathToRoot>
+        </objectDetail>
+        <status>Inactive</status>
+    </versionDetail>
+</OnboardingDataObjectGroup>
