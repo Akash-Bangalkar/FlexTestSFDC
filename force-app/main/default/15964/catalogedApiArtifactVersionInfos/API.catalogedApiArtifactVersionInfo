@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CatalogedApiArtifactVersionInfo xmlns="http://soap.sforce.com/2006/04/metadata">
+    <revision>1</revision>
+    <type>API</type>
+    <version>v1</version>
+</CatalogedApiArtifactVersionInfo>
