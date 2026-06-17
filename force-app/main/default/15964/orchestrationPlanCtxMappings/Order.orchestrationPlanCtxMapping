@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrchestrationPlanCtxMapping xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Order Fulfillment Context Mapping</label>
+    <orchestrationType>Fulfillment</orchestrationType>
+    <contextDefinition>SalesTransactionContext__stdctx</contextDefinition>
+    <objectName>Order</objectName>
+    <contextMapping>OrderEntitiesMapping</contextMapping>
+    <contextRootNode>SalesTransaction</contextRootNode>
+    <contextItemNode>SalesTransactionItem</contextItemNode>
+</OrchestrationPlanCtxMapping>
