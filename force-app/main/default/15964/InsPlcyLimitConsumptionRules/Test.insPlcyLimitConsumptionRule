@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InsPlcyLimitConsumptionRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <policyProduct>AutoPolicyCoverageProduct</policyProduct>
+    <consumptionMode>Full</consumptionMode>
+    <isEnabled>false</isEnabled>
+    <masterLabel>Insurance Policy Limit Consumption Rule</masterLabel>
+</InsPlcyLimitConsumptionRule>
