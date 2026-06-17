@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CatalogedApiVersion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <catalogedApi>PetstoreEngineeringv109C60C7C</catalogedApi>
+    <externalSourceIdentifier>urn:ms:03ff2c74-d0ea-4eba-a536-36dfd2d0fdbb:api-project::petstore-engineering/v1</externalSourceIdentifier>
+    <label>petstore-engineering</label>
+    <version>v1lwWZmDFyJYIFValk</version>
+</CatalogedApiVersion>
