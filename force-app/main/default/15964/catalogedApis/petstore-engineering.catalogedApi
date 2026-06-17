@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CatalogedApi xmlns="http://soap.sforce.com/2006/04/metadata">
+    <externalSourceIdentifier>urn:ms:03ff2c74-d0ea-4eba-a536-36dfd2d0fdbb:api-project::petstore-engineering</externalSourceIdentifier>
+    <instances>
+        <accessStatus>NoStatus</accessStatus>
+        <apiInstanceDescriptor>{&quot;@type&quot;:&quot;anypointAPIInstanceDescriptor&quot;,&quot;environmentType&quot;:&quot;SANDBOX&quot;,&quot;environmentName&quot;:&quot;Sandbox&quot;,&quot;environmentId&quot;:&quot;79305d19-1d89-413f-88ec-d7a8dbd1e29d&quot;,&quot;instanceId&quot;:&quot;4051358&quot;,&quot;authenticationMethod&quot;:&quot;NO_AUTH&quot;,&quot;componentType&quot;:&quot;apiInstance&quot;,&quot;instanceOrigin&quot;:&quot;MANUAL&quot;}</apiInstanceDescriptor>
+        <approvalType>NoApproval</approvalType>
+        <label>petstore-engineering</label>
+        <serviceRegistration>PetstoreEngineeringv109C60C7C</serviceRegistration>
+        <uri>https://google.com</uri>
+    </instances>
+    <label>petstore-engineering</label>
+    <providerType>Anypoint</providerType>
+    <type>REST</type>
+</CatalogedApi>
