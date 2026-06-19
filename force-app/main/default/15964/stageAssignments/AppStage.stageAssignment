@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StageAssignment xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>Assigns stage definitions to applications based on amount</description>
+    <masterLabel>Application Stage Assignment</masterLabel>
+    <referenceObject>ApplicationForm</referenceObject>
+    <ruleCriteria>
+        <name>High Value Applications</name>
+        <priority>1</priority>
+        <criteriaType>AND</criteriaType>
+        <condition>
+            <fieldName>Amount</fieldName>
+            <operator>GreaterThan</operator>
+            <sequenceNumber>1</sequenceNumber>
+            <value>10000</value>
+        </condition>
+        <condition>
+            <fieldName>Status</fieldName>
+            <operator>Equals</operator>
+            <sequenceNumber>2</sequenceNumber>
+            <value>Approved</value>
+        </condition>
+        <stageDefinition>Premium_Application_Stages</stageDefinition>
+    </ruleCriteria>
+    <ruleCriteria>
+        <name>Standard Applications</name>
+        <priority>2</priority>
+        <criteriaType>AND</criteriaType>
+        <condition>
+            <fieldName>Amount</fieldName>
+            <operator>LessOrEqual</operator>
+            <sequenceNumber>1</sequenceNumber>
+            <value>10000</value>
+        </condition>
+        <stageDefinition>Standard_Application_Stages</stageDefinition>
+    </ruleCriteria>
+    <stageDefinition>Basic_Application_Stages</stageDefinition>
+</StageAssignment>
