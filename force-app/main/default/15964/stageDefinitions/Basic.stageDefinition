@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StageDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <description>Application form Stage transitions</description>
+    <masterLabel>basic</masterLabel>
+    <referenceObject>ApplicationForm</referenceObject>
+    <referenceObjectField>Stage</referenceObjectField>
+    <stageTransition>
+        <criteria>
+            <condition>
+                <operator>Equals</operator>
+                <sequenceNumber>1</sequenceNumber>
+                <sourceField>ApplicationForm.Name</sourceField>
+                <value>test</value>
+            </condition>
+            <criteriaType>AND</criteriaType>
+            <executionType>CONDITION</executionType>
+            <logicalExpression>1</logicalExpression>
+            <targetObject>ApplicationForm</targetObject>
+        </criteria>
+        <userPermission>ProcessOrder</userPermission>
+        <fromStageValue>Initiated</fromStageValue>
+        <toStageValue>On Hold</toStageValue>
+        <stepGroup>
+            <name>Initiated-On Hold</name>
+            <step>
+                <apiName>Autotask_step_defn</apiName>
+                <flowDefinitionName>disputemanagement__InvokeAsyncAction</flowDefinitionName>
+                <name>Autotask step defn</name>
+                <runAsUser>testuser@salesforce.com</runAsUser>
+                <stepType>AutoTask</stepType>
+            </step>
+            <step>
+                <apiName>testScreenFlow</apiName>
+                <assignedToUser>testuser@salesforce.com</assignedToUser>
+                <flowDefinitionName>cms_orch__CMS_NotifyRequester</flowDefinitionName>
+                <name>testScreenFlow</name>
+                <stepType>ManualTask</stepType>
+                <dependency>
+                   <step>Autotask_step_defn</step>
+                </dependency>
+            </step>
+        </stepGroup>
+    </stageTransition>
+    <stageValue>
+        <value>Initiated</value>
+        <criteria>
+            <condition>
+                <operator>Equals</operator>
+                <sequenceNumber>1</sequenceNumber>
+                <sourceField>ApplicationForm.Name</sourceField>
+                <value>test</value>
+            </condition>
+            <criteriaType>AND</criteriaType>
+            <executionType>CONDITION</executionType>
+            <logicalExpression>1</logicalExpression>
+            <targetObject>ApplicationForm</targetObject>
+        </criteria>
+        <stepGroup>
+            <name>Initiated</name>
+            <step>
+                <apiName>Autotask_step_defn</apiName>
+                <flowDefinitionName>disputemanagement__InvokeAsyncAction</flowDefinitionName>
+                <name>Autotask step defn</name>
+                <runAsUser>testuser@salesforce.com</runAsUser>
+                <stepType>AutoTask</stepType>
+            </step>
+            <step>
+                <apiName>testScreenFlow</apiName>
+                <assignedToUser>testuser@salesforce.com</assignedToUser>
+                <flowDefinitionName>cms_orch__CMS_NotifyRequester</flowDefinitionName>
+                <name>testScreenFlow</name>
+                <stepType>ManualTask</stepType>
+                <dependency>
+                    <step>Autotask_step_defn</step>
+                </dependency>
+            </step>
+        </stepGroup>
+    </stageValue>
+    <stageValue>
+        <value>On Hold</value>
+    </stageValue>
+</StageDefinition>
