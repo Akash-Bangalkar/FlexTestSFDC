@@ -1,0 +1,118 @@
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Server version name:   Apache Tomcat/9.0.108
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Server built:          Jul 31 2025 18:19:48 UTC
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Server version number: 9.0.108.0
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - OS Name:               Windows 11
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - OS Version:            10.0
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Architecture:          amd64
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Java Home:             C:\Program Files\Amazon Corretto\jdk17.0.16_8
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - JVM Version:           17.0.16+8-LTS
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - JVM Vendor:            Amazon.com Inc.
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - CATALINA_BASE:         C:\prod\smarttomcat
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - CATALINA_HOME:         C:\prod\tomcat
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -Xms512m
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -Xmx4g
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -Xlog:gc:file=c:\prod\smarttomcat\logs\gc.log:time,level,tags
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -Dflexagon.fd.install.root=C:\temp\flexdeploy\application
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -Dflexagon.fd.repository.root=C:\temp\flexdeploy\repository
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -Dcatalina.home=C:\prod\tomcat
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -Dcatalina.base=C:\prod\smarttomcat
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -Djava.io.tmpdir=C:\prod\smarttomcat\temp
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -Djava.util.logging.config.file=C:\prod\smarttomcat\conf\logging.properties
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.2\lib\idea_rt.jar=61061
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.VersionLoggerListener.log - Command line argument: -Dfile.encoding=UTF-8
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.core.AprLifecycleListener.lifecycleEvent - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.core.AprLifecycleListener.lifecycleEvent - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.core.AprLifecycleListener.lifecycleEvent - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.core.AprLifecycleListener.initializeSSL - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.coyote.AbstractProtocol.init - Initializing ProtocolHandler ["http-nio-8000"]
+Tue Sep 09 17:55:12 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.Catalina.load - Server initialization in [1541] milliseconds
+Tue Sep 09 17:55:13 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.core.StandardService.startInternal - Starting service [Catalina]
+Tue Sep 09 17:55:13 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.core.StandardEngine.startInternal - Starting Servlet engine: [Apache Tomcat/9.0.108]
+Tue Sep 09 17:55:13 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.HostConfig.deployDescriptor - Deploying deployment descriptor [C:\prod\smarttomcat\conf\Catalina\localhost\flexdeploy.xml]
+Tue Sep 09 17:55:13 IST 2025 - 1 - SEVERE - null - null - null - org.apache.catalina.startup.HostConfig.deployDescriptor - Error deploying deployment descriptor [C:\prod\smarttomcat\conf\Catalina\localhost\flexdeploy.xml]
+java.lang.IllegalStateException: Error starting child
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@73a8da0f]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4172)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4294)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+	... 37 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\prod\flexdeploy90\FlexDeploy\FlexDeploy\FlexDeployUI\public_html] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:758)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:715)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	... 41 more
+Tue Sep 09 17:55:13 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.HostConfig.deployDescriptor - Deployment of deployment descriptor [C:\prod\smarttomcat\conf\Catalina\localhost\flexdeploy.xml] has finished in [115] ms
+Tue Sep 09 17:55:13 IST 2025 - 1 - INFO - null - null - null - org.apache.coyote.AbstractProtocol.start - Starting ProtocolHandler ["http-nio-8000"]
+Tue Sep 09 17:55:13 IST 2025 - 1 - INFO - null - null - null - org.apache.catalina.startup.Catalina.start - Server startup in [622] milliseconds
+Tue Sep 09 18:06:14 IST 2025 - 40 - INFO - null - null - null - org.apache.coyote.AbstractProtocol.pause - Pausing ProtocolHandler ["http-nio-8000"]
+Tue Sep 09 18:06:14 IST 2025 - 40 - INFO - null - null - null - org.apache.catalina.core.StandardService.stopInternal - Stopping service [Catalina]
+Tue Sep 09 18:06:14 IST 2025 - 40 - INFO - null - null - null - org.apache.coyote.AbstractProtocol.stop - Stopping ProtocolHandler ["http-nio-8000"]
+Tue Sep 09 18:06:14 IST 2025 - 40 - INFO - null - null - null - org.apache.coyote.AbstractProtocol.destroy - Destroying ProtocolHandler ["http-nio-8000"]
+Tue Sep 09 18:06:14 IST 2025 - 40 - WARNING - null - null - null - org.apache.catalina.deploy.NamingResourcesImpl.cleanUp - Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/flexdeploy]] so no cleanup was performed for that container
+javax.naming.NamingException: No naming context bound to this class loader
+	at org.apache.naming.ContextBindings.getClassLoader(ContextBindings.java:258)
+	at org.apache.catalina.deploy.NamingResourcesImpl.cleanUp(NamingResourcesImpl.java:943)
+	at org.apache.catalina.deploy.NamingResourcesImpl.stopInternal(NamingResourcesImpl.java:926)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4742)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:270)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+	at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:298)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+	at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:298)
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:542)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:298)
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:994)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:298)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:815)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:960)

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>FD Support</name>
+    <queueMembers>
+        <users>
+            <user>fdadmin9@sandbox.flex</user>
+            <user>insightssecurity@00dns000003gxrm2ai.com</user>
+            <user>trail.user@fdtlt.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

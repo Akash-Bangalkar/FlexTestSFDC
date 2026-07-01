@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oasis_CL</fullName>
+    <fields>Name</fields>
+    <fields>Issue_Tracking_Code__c</fields>
+    <fields>Force_Deploy__c</fields>
+    <fields>Updated_On__c</fields>
+    <label>Oasis CL</label>
+</CompactLayout>

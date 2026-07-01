@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FlexRelease__c</fullName>
+    <displayFormat>FD9.0.0.10.{0}</displayFormat>
+    <externalId>false</externalId>
+    <label>FlexRelease</label>
+    <type>AutoNumber</type>
+</CustomField>

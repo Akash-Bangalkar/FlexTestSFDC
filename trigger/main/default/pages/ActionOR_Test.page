@@ -1,0 +1,6 @@
+<apex:page standardController="Truecaller__c">
+    <apex:form >
+        <apex:pageBlock title="Edit Truecaller Record">
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

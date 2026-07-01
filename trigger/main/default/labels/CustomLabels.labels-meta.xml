@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Blueprints</fullName>
+        <categories>ProjectTypes</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Blueprints</shortDescription>
+        <value>Salesforce
+OIC
+Azure
+Oracle</value>
+    </labels>
+    <labels>
+        <fullName>CustomProfile_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CustomProfile_Label</shortDescription>
+        <value>Sys Admin
+Marketing User
+Std User
+Read Only Profile</value>
+    </labels>
+    <labels>
+        <fullName>FD_About_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FD_About_Label</shortDescription>
+        <value>FD About label</value>
+    </labels>
+    <labels>
+        <fullName>FD_ID</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FD ID</shortDescription>
+        <value>test custom label</value>
+    </labels>
+    <labels>
+        <fullName>FD_SFDX</fullName>
+        <categories>Salesforce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FD SFDX</shortDescription>
+        <value>Metadata
+Salesforce DX</value>
+    </labels>
+    <labels>
+        <fullName>FD_Version</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FD_Version</shortDescription>
+        <value>FD Version</value>
+    </labels>
+    <labels>
+        <fullName>FD_Version_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FD_Version_Label</shortDescription>
+        <value>FD Version</value>
+    </labels>
+    <labels>
+        <fullName>New_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>New Label</shortDescription>
+        <value>FormattedText
+RichText
+MultiSpace</value>
+    </labels>
+    <labels>
+        <fullName>ObjectManager</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ObjectManager</shortDescription>
+        <value>Custom</value>
+    </labels>
+    <labels>
+        <fullName>Onsite</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Onsite</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>Outlook</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Outlook</shortDescription>
+        <value>Quick Access</value>
+    </labels>
+    <labels>
+        <fullName>PC</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PC</shortDescription>
+        <value>Asus
+Dell
+HP</value>
+    </labels>
+    <labels>
+        <fullName>PackageXml</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PackageXml</shortDescription>
+        <value>Xml</value>
+    </labels>
+    <labels>
+        <fullName>Test_Custom_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test_Custom_Label</shortDescription>
+        <value>Testing sample for Custom Label</value>
+    </labels>
+    <labels>
+        <fullName>X89Server</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>89Server</shortDescription>
+        <value>Flex
+Deploy
+Tomcat</value>
+    </labels>
+</CustomLabels>
