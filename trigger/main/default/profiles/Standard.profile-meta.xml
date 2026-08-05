@@ -358,10 +358,6 @@
         <enabled>true</enabled>
         <name>Trailhead__mdt</name>
     </customMetadataTypeAccesses>
-    <externalDataSourceAccesses>
-        <enabled>false</enabled>
-        <externalDataSource>FlexDB</externalDataSource>
-    </externalDataSourceAccesses>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
