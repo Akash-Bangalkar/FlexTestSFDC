@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ExpirationDate</fullName>
-    <inlineHelpText>The date the offer becomes invalid at 12:00 AM UTC</inlineHelpText>
+    <fullName>TierLabel</fullName>
+    <inlineHelpText>The name buyers see when this promotion tier is applied to a cart.</inlineHelpText>
     <trackHistory>false</trackHistory>
 </CustomField>
