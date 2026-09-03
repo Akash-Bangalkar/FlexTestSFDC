@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>group_id-gp498</description>
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <name>GP-Group-498</name>
+</Group>

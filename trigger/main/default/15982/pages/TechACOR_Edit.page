@@ -1,0 +1,6 @@
+<apex:page standardController="Technology__c">
+    <apex:form >
+        <apex:pageBlock title="Edit Technology Record">
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

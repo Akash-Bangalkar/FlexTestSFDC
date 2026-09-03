@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- FD9 --></label>
+        <name>FD9</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- Blueprints --></label>
+        <name>Blueprints</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomProfile_Label --></label>
+        <name>CustomProfile_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FD_About_Label --></label>
+        <name>FD_About_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FD ID --></label>
+        <name>FD_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FD SFDX --></label>
+        <name>FD_SFDX</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FD_Version --></label>
+        <name>FD_Version</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FD_Version_Label --></label>
+        <name>FD_Version_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Label --></label>
+        <name>New_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ObjectManager --></label>
+        <name>ObjectManager</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Onsite --></label>
+        <name>Onsite</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Outlook --></label>
+        <name>Outlook</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PC --></label>
+        <name>PC</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PackageXml --></label>
+        <name>PackageXml</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Test_Custom_Label --></label>
+        <name>Test_Custom_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 89Server --></label>
+        <name>X89Server</name>
+    </customLabels>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Access_Inside</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Employee_Update</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>RelatedCasesChoice</name>
+            </choices>
+            <choices>
+                <name>RelatedIncidentsChoice</name>
+            </choices>
+            <choices>
+                <name>RelatedProblemsChoice</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>CasesClosed</name>
+                </fields>
+                <fields>
+                    <name>CasesFailure</name>
+                </fields>
+                <fields>
+                    <name>ChangeRequestClosed</name>
+                </fields>
+                <fields>
+                    <name>ChangeRequestFailure</name>
+                </fields>
+                <fields>
+                    <name>ClosedResults</name>
+                </fields>
+                <fields>
+                    <name>ErroredResults</name>
+                </fields>
+                <fields>
+                    <name>IncidentFailure</name>
+                </fields>
+                <fields>
+                    <name>IncidentsClosed</name>
+                </fields>
+                <fields>
+                    <name>ProblemFailure</name>
+                </fields>
+                <fields>
+                    <name>ProblemsClosed</name>
+                </fields>
+                <fields>
+                    <name>ReviewResults_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ReviewResults_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <name>ReviewResults_Section2</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ReviewResults_Section2_Column1</name>
+                </fields>
+                <fields>
+                    <name>TroubleshootFailure</name>
+                </fields>
+                <name>ReviewResults</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>CheckboxGroupRelatedIssueTypes</name>
+                </fields>
+                <fields>
+                    <name>DisplayTextScreenInstructions</name>
+                </fields>
+                <fields>
+                    <name>DisplayTextSectionHeader</name>
+                </fields>
+                <fields>
+                    <name>SelectCloseRelatedIssuesOptions_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>SelectCloseRelatedIssuesOptions_Section1_Column1</name>
+                </fields>
+                <name>SelectCloseRelatedIssuesOptions</name>
+            </screens>
+            <textTemplates>
+                <name>SectionHeaderSelectOptions</name>
+            </textTemplates>
+            <textTemplates>
+                <name>TextCheckboxGroupLabel</name>
+            </textTemplates>
+        </flows>
+        <fullName>Close_Change_Request</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Opportunity_Email</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Rating_Automation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>sfdc_default_ReportExport_Protection_Flow</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>

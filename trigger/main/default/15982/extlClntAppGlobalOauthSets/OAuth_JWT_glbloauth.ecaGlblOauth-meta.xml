@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppGlobalOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callbackUrl>https://localhost/callback</callbackUrl>
+    <certificate>MIIDpzCCAo+gAwIBAgIUMNbKFrxj+RGqQ9rtdUrg07oqejIwDQYJKoZIhvcNAQEL
+BQAwfDELMAkGA1UEBhMCSU4xCzAJBgNVBAgMAk1IMQ8wDQYDVQQHDAZNdW1iYWkx
+DTALBgNVBAoMBEZsZXgxCzAJBgNVBAsMAkZEMQ4wDAYDVQQDDAVBa2FzaDEjMCEG
+CSqGSIb3DQEJARYUdHJhaWwudXNlckBmZHRsdC5jb20wHhcNMjUxMjEyMDkwNjMw
+WhcNMjYxMjEyMDkwNjMwWjB8MQswCQYDVQQGEwJJTjELMAkGA1UECAwCTUgxDzAN
+BgNVBAcMBk11bWJhaTENMAsGA1UECgwERmxleDELMAkGA1UECwwCRkQxDjAMBgNV
+BAMMBUFrYXNoMSMwIQYJKoZIhvcNAQkBFhR0cmFpbC51c2VyQGZkdGx0LmNvbTCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAI3NNrp2BNW+OUy12tX2JPGX
+Ub2GtozGtFP7P7OsLyiY6kLuF9UFvzDx1xPjqqeI8TbqfyyxB1nGNJMaVAiePdLd
+mm4ESZA2iEPWSoSFqY+Zmn+X3MCd74L75UNWx4X7OiNuEbBG1Xssi+xrs5RwKYj/
+T4X7p9tF8SqoMDftiEKI51iqPeToXTrWwMsVkBDs/pmzDQVTHmkt2opzcUmLn8wr
+yr/jI6vESz2ZkHUKrR87N6UUv3SGlzzyRQDqex1r5bIc6qFmj3xFV+MRV0GhsYpH
+HlNyIis/sGN9kwuXUBGPMTi+QmVeFVM7iTK0lMJA/bsPxw2iRLEd1E1cOAv2cW8C
+AwEAAaMhMB8wHQYDVR0OBBYEFDCO4aFrHzyEeLYlPshuBUBYjGRsMA0GCSqGSIb3
+DQEBCwUAA4IBAQAU7K4j9Cw5+lP7S3G2CJ5q3LQSnWFy75OZHV+yGfrakhLJ+60o
+gbS8g5M5qL4roMV7C7Vv5qb9+bWPBjp1WbkE6WEHDbefSeydCYj3dp+QobC5HK0v
+X2uF2rn44obXeF9jpSO26FLylT79Nb50vV2ao8yDBmZgu33aAOD0X2ayLtQV+quK
+0tnnE2UgDSp+P7moLdUjJwlYQpiETrFKu17M3A9Y6raa0R4j4DNZ2GIju6i81+FN
+FlOO2BTgCvXE66rYjzVcvIYDqp3pLARbFM5oES+QCNTUNk75jiZtsN0e1YqeaU6/
+LlD3lMkHbvBP+/4ew6153hyCmndQoXmnWGWR</certificate>
+    <consumerKey>3MVG9VMBZCsTL9hk2tkomL6O6QV8fO4grzzRm6pVXhN9MRnwCW7gsALf6AdfibFyM6x_wQdeM5CBUN9pkoDlJ</consumerKey>
+    <externalClientApplication>OAuth_JWT</externalClientApplication>
+    <isClientCredentialsFlowEnabled>false</isClientCredentialsFlowEnabled>
+    <isCodeCredFlowEnabled>false</isCodeCredFlowEnabled>
+    <isCodeCredPostOnly>false</isCodeCredPostOnly>
+    <isConsumerSecretOptional>false</isConsumerSecretOptional>
+    <isDeviceFlowEnabled>false</isDeviceFlowEnabled>
+    <isIntrospectAllTokens>false</isIntrospectAllTokens>
+    <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+    <isPkceRequired>false</isPkceRequired>
+    <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+    <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+    <isSecretRequiredForTokenExchange>true</isSecretRequiredForTokenExchange>
+    <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+    <label>OAuth_JWT_glbloauth</label>
+    <shouldRotateConsumerKey>false</shouldRotateConsumerKey>
+    <shouldRotateConsumerSecret>false</shouldRotateConsumerSecret>
+</ExtlClntAppGlobalOauthSettings>

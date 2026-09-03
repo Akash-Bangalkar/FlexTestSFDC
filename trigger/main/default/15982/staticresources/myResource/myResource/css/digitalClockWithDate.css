@@ -1,0 +1,21 @@
+/* digitalClockWithDate.css */
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    text-align: center;
+    height: 150px; /* Optional: Set a fixed height for the component */
+}
+
+.clock, .date {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 14px;
+}
