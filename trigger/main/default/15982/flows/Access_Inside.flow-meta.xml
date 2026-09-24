@@ -11,12 +11,14 @@
         <inputParameters>
             <name>senderType</name>
             <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
                 <stringValue>OrgWideEmailAddress</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>senderAddress</name>
             <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
                 <stringValue>test@flexdeploy.com</stringValue>
             </value>
         </inputParameters>
@@ -35,12 +37,14 @@
         <inputParameters>
             <name>emailBody</name>
             <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
                 <stringValue>&lt;p&gt;Test&lt;/p&gt;</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>relatedRecordId</name>
             <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
                 <stringValue></stringValue>
             </value>
         </inputParameters>

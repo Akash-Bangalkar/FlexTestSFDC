@@ -10,7 +10,11 @@
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>recipientAddresses</name>
-            <value/>
+            <value>
+                <collectionElements>
+                    <elementReference>$Record.Owner.Email</elementReference>
+                </collectionElements>
+            </value>
         </inputParameters>
         <inputParameters>
             <name>composeEmailContent</name>
@@ -27,6 +31,7 @@
         <inputParameters>
             <name>emailBody</name>
             <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
                 <stringValue>&lt;p&gt;Test Body&lt;/p&gt;</stringValue>
             </value>
         </inputParameters>

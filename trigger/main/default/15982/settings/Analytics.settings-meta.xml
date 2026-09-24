@@ -27,6 +27,7 @@
     <enableFirebirdEditor>false</enableFirebirdEditor>
     <enableFloatingReportHeaders>true</enableFloatingReportHeaders>
     <enableIncludeDisclaimerMessage>false</enableIncludeDisclaimerMessage>
+    <enableIncrementalUpsert>false</enableIncrementalUpsert>
     <enableInsights>true</enableInsights>
     <enableLightningReportBuilder>false</enableLightningReportBuilder>
     <enableLotusNotesImages>false</enableLotusNotesImages>
@@ -38,10 +39,14 @@
     <enableOrgCanViewThumbnailForOA>true</enableOrgCanViewThumbnailForOA>
     <enableOrgHasMobileOfflineEnabled>true</enableOrgHasMobileOfflineEnabled>
     <enableOrgHasWatchlistEnabled>true</enableOrgHasWatchlistEnabled>
+    <enableOrgWideEmailNotification>false</enableOrgWideEmailNotification>
+    <enablePupparazziForNotifications>false</enablePupparazziForNotifications>
     <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
     <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
     <enableReportCdnPref>true</enableReportCdnPref>
+    <enableReportCustomTextExportPref>false</enableReportCustomTextExportPref>
+    <enableReportEscapeCharsPref>false</enableReportEscapeCharsPref>
     <enableReportHideXlsExportPref>false</enableReportHideXlsExportPref>
     <enableReportInlineEditPref>true</enableReportInlineEditPref>
     <enableReportNotificationsEnable>true</enableReportNotificationsEnable>
