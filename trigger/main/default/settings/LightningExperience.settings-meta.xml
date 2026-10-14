@@ -3,7 +3,6 @@
     <enableAccessCheckCrucPref>false</enableAccessCheckCrucPref>
     <enableApiUserLtngOutAccessPref>false</enableApiUserLtngOutAccessPref>
     <enableAuraCDNPref>true</enableAuraCDNPref>
-    <enableAuraSecStaticResCRUCPref>false</enableAuraSecStaticResCRUCPref>
     <enableDeferRenderingWorkspacePage>true</enableDeferRenderingWorkspacePage>
     <enableErrorExperienceEnabled>false</enableErrorExperienceEnabled>
     <enableFeedbackInMobile>true</enableFeedbackInMobile>
