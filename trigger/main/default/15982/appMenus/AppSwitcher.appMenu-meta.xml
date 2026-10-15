@@ -172,4 +172,8 @@
         <name>CA_Client_Credentials_Flow</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>standard__AlmDevops</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
